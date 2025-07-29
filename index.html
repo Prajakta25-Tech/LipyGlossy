@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LipyGlossy - Lipstick Collection</title>
+
+  <style>
+    body {
+     background: linear-gradient(to bottom right,#fbd3e9,#be83a3);
+      margin: 0;
+      font-family:'Montserrat',sans-serif;
+
+    }
+
+    header {
+      background-color: #ffe4ec;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      color: #3b0a36;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #880e4f;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 16px;
+      margin-top: auto;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 10px 10px;
+      background-color: #ffe4ec;
+    }
+
+    .hero h2 {
+      color: #b30059;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #333;
+    }
+
+    .hero button {
+      background-color: #d4006b;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #3b0a36;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer button {
+      background-color: #c2005c;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }}
+      .product{
+        gap: 100px;
+        text-decoration: none;
+        border-radius: 20px;
+        margin-top: 30px;
+       background-color:#ffe4ec;
+        display: flex;
+        justify-content: center;
+        block-size: auto;
+      }
+      img{
+        transition: transform 0.3s ease,box-shadow 0.3s ease;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+      img:hover{
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(255, 105, 180, 0.5);
+      }
+      .glam-header {
+  background-color: #be83a3;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-bottom: 3px solid #be83a3;
+      }
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color:#b30059;
+}
+.site-title {
+  font-weight: bold;
+}
+nav a {
+  margin: 0 15px;
+  color:black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.sparkle {
+  animation: sparkle-glow 2s infinite alternate;
+}
+
+@keyframes sparkle-glow {
+  0% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 5px #f06292);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 15px #f50057);
+  }
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="floating-title">Welcome To LipyGlossy</h1>
+    <header class="glam-header">
+      <div class="logo-container">
+        <i class="fas fa-crown sparkle"></i>
+        <span class="site-title"></span>
+        <i class="fas fa-lipstick sparkle"></i>
+      </div>
+      <nav>
+      <a href="about.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="shop.html"></a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Unleash Your Inner Glam</h2>
+    <p>Explore our vibrant lipstick collection for every mood and moment</p>
+    <p>© 2025 LipyGlossy. All rights reserved.</p>
+    <button onclick="window.location.href='shop.html'">Shop Now</button>
+    <section class="product">
+<img src="Image/Index/OIP 3.jpg" alt="LIP" width="300" height="300">
+<img src="Image/Index/lipy.jpg" alt="LIP" width="300" height="300">
+<img src="Image/Index/lup.jpg" alt="LIP" width="500" height="500">
+<img src="Image/Index/Lipstick.jpg" alt="LIP" width="300" height="300">
+<img src="Image/Index/lips.jpg "alt="LIP" height="300">
+    </section>
+
+
+
+</body>
+</html>
